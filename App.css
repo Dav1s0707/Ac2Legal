@@ -1,0 +1,126 @@
+
+*{
+  padding: 0px 0px;
+  margin: 0px 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(181, 184, 184);
+}
+
+.linha a, img{
+  margin: 0px 10px;
+}
+
+.logo {
+  height: 5%;
+  width: 5%;
+}
+
+.cabeca {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background: rgb(206, 214, 214);
+}
+
+.cabeca h1, h3{
+  margin: 5px 0px;
+}
+
+h3, h2 , p, h4{
+  margin: 10px 0px;
+
+}
+
+.linha2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 5px;
+}
+
+.espaco {
+  margin: 0px 10px;
+}
+
+.carrosel {
+  width: 40%;
+  justify-content: center;
+  align-items: center;
+  margin: 0% 27%;
+}
+
+
+.bem10 {
+  width: 80%;
+  height: 50%;
+}
+
+.item {
+  width: 25%;
+  height: 25%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 3%;
+  background-color: rgb(206, 214, 214);
+  padding: 1%;
+}
+
+.item:hover {
+  background: rgb(181, 184, 184);
+}
+
+.itens {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.cor {
+  background-color: rgb(93, 98, 98);
+  width: 100%;
+  height: 100%;
+}
+
+button {
+  color: rgb(0, 0, 0);
+  background-color: rgb(84, 194, 94);
+  border: none;
+  border-radius: 7px;
+  padding: 10px 15px;
+}
+
+button:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(39, 187, 51);
+
+}
+
+.centro{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1em;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.meio{
+  width: 50%;
+}
